@@ -1,0 +1,33 @@
+Command:
+
+git clone [your-copied-url]
+	cd [your-repository-name] - Project Name
+	ls - c directories and files in the current directory
+
+git status -shows all the files that have been added and modified and ready to be commmitted and files which are untracked
+
+git add (filename)
+git add --all
+
+git commit -m "[your-commit-message]"
+git commit -am "[your-commit-message]" - add and commit all files
+
+git push
+https://github.com/umathiru/GitHubSession.git
+git push origin [branch name]
+git push origin master
+git push -u origin [branch name] - push and remember the branch
+
+git pull
+git pull origin [branch name]
+
+git branch -List the branches
+git branch -a - list all local & remote banches
+git branch [branch name] - Create a branch
+git checkout -b [branch name] - Create a new branch and switch to it
+git checkout [branch name] -Switch to a branch
+git merge Testing - To merge Testing branch with master branch
+
+
+git reset –hard HEAD^ - undo last commit and remove file from the staging area as well
+git reset –hard HEAD^^ - undo last 2 commits and all changes.
