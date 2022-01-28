@@ -32,3 +32,5 @@ git merge Testing - To merge Testing branch with master branch
 git reset –hard HEAD^ - undo last commit and remove file from the staging area as well
 git reset –hard HEAD^^ - undo last 2 commits and all changes.
 Uma edited 2nd time
+
+Some text
