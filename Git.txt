@@ -33,4 +33,4 @@ git reset –hard HEAD^ - undo last commit and remove file from the staging area
 git reset –hard HEAD^^ - undo last 2 commits and all changes.
 Uma edited 2nd time
 
-Some text
+Some text AAA
